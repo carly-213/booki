@@ -17,11 +17,11 @@
 </head>
 
 <body>
-<!--HEADER + NAV-->  
+<!--HEADER-->  
     <header>
       <img class="logo_booki" src="./image/logo/Booki.png" alt="logo-booki" title="logo-booki">
     </header>
-
+<!--NAV-->
     <nav>
       <ul>
         <li><a href="#hebergement">Hébergements</a></li>
@@ -30,15 +30,14 @@
     </nav>
 
     <main>
-
       <h1 class="main_h1">Trouvez votre hébergement pour des vacances de rêve</h1>
       <p class="main_p">En plein centre-ville ou en pleine nature</p>
 
+<!--BARRE RECHERCHE HEBERGEMENT-->
       <form>
-          <!--<div class="maps">-->
+          <span class="maps">
            <i class="fa-sharp fa-solid fa-location-dot"></i>
-          
-          <!--</div>-->
+          </span>
 
           <input type="text" placeholder="Marseille, France" class="input_text">
         
@@ -46,7 +45,8 @@
             class="fa-sharp fa-solid fa-magnifying-glass display_mobile"></i></button>
       </form>
 
-      <section class="filtre">
+<!--FILTRES-->
+      <article class="filtre">
         <h2>Filtres</h2>
         <div class="btn_smartphone">
           <button>
@@ -62,13 +62,13 @@
             <i class="fa-solid fa-dog"></i>Animaux autorisés
           </button>
         </div>
-      </section>
+      </article>
 
       <div class="flex align-items margin_left">
         <span class="exclamation">i</span>
         <p>&nbsp; Plus de 500 logements sont disponibles dans cette ville</p>
       </div>
-  
+<!--HEBERGEMENT A MARSEILLE + LES PLUS POPULAIRES-->
       <div id="herbergement_et_populaire">
         <article id="hebergement">
           <div class="background_gris section_hebergement">
@@ -134,8 +134,11 @@
                     <h3 class="carte_text_700">Hôtel de la mer</h3>
                     <p class="carte_text_400">Nuit à partir de 46€</p>
                     <div class="active">
-                      <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i><i class="fa-solid fa-star inactive"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star inactive"></i>
                     </div>
                   </div>
                 </div>
@@ -175,7 +178,8 @@
             <p class="margin_left_and_right display_desktop padding_bottom carte_text_700">Afficher plus</p>
           </div>
         </article>
-        <aside id="populaire" class="background_gris margin_left_and_right">
+
+        <article id="populaire" class="background_gris margin_left_and_right">
   
           <div class="margin_left_and_right populaire_div_h2">
             <h2>Les plus populaires</h2><i class=" fa-solid fa-chart-line fa-2x active"></i>
@@ -242,9 +246,10 @@
               </div>
             </a>
           </div>
-        </aside>
+        </article>
       </div>
   
+<!--ACTIVITES A MARSEILLE-->
       <article id="activite">
         <h2 class="margin_left_and_right populaire_h1">Activités à Marseille</h2>
         <div class="activite_block">
@@ -278,6 +283,7 @@
       </article>
     </main>
 
+<!--FOOTER-->
     <footer>
       <div>
         <h2>A propos</h2>
@@ -302,8 +308,5 @@
         </ul>
       </div>
     </footer>
-
   </body>
-
-
 </html>

@@ -69,3 +69,11 @@ main{
     padding-top: 30px;
     padding-bottom: 40px;
 }
+
+.flex{
+  display: flex;
+}
+
+.align-items {
+  align-items: center;
+}
