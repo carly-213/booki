@@ -204,3 +204,405 @@ form button{
   display: flex;
 }
 
+/*BLOCK HEBERGEMENT*/
+
+.hebergement_h2{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.section_hebergement{
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.hebergement_block{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-left: 10px;
+  padding-top: 20px;
+}
+
+.hebergement_block a{
+  width: 30%;
+  max-width: 240px;
+}
+
+.hebergement_carte{
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.hebergement_carte:hover{
+  cursor: pointer;
+}
+
+.hebergement_description{
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+.hebergement_carte img{
+  width: 100%;
+  max-width: 246px;
+  object-fit: cover;
+  height: 124px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+/*BLOCK POPULAIRE*/
+
+article{
+  border-radius: 20px;
+}
+
+.populaire_div_h2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.populaire_block{
+  display: flex;
+  flex-direction: column;
+}
+
+.populaire_carte{
+  height: 154px;
+  margin-top: 20px;
+  padding: 5px;
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.populaire_carte:hover{
+  cursor: pointer;
+}
+
+.populaire_carte h2{
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 10px;
+}
+
+.populaire_carte p{
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.populaire_image{
+  width: 40%;
+  min-width: 137px;
+  height: 100%;
+}
+.populaire_image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.populaire_details{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+/*BLOCK ACTIVITE*/
+
+.activite_block{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.activite_carte{
+  display: block;
+  border-radius: 0px 0px 20px 20px;
+  background: #ffffff;
+  padding-left: 20px;
+  box-shadow: 5px 5px 5px #f2f2f2;
+  max-width: 300px;
+  width: 25%;
+}
+
+.activite_carte p{
+  margin-left: 20px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.activite_carte img{
+  border-radius: 20px 20px 0px 0px;
+  object-fit: cover;
+  width: 100%;
+  height: 440px;
+}
+
+/*FOOTER*/
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 20px;
+  padding-right: 200px;
+}
+
+footer div{
+  display: flex;
+  flex-direction: column;
+}
+
+footer ul{
+  padding: 0;
+}
+
+footer h2{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+/*RESPONSIVE TABLETTES*/
+
+@media only screen and (max-width: 992px) {
+  
+  .carte_text_700{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .carte_text_400{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .display_mobile{
+    visibility: hidden;
+  }
+
+  .display_desktop{
+    display: block;
+    visibility: visible;
+  }
+  .active{
+    padding-bottom: 10px;
+  }
+
+  /*BODY*/
+
+  body{
+    width: auto;
+    max-width: 991px;
+    margin: 0 auto;
+  }
+  main span{
+    margin-left: 20px;
+  }
+
+  header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  main{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /*HEADER*/
+
+  .logo_booki{
+    margin-left: 20px;
+  }
+  #nav{
+    margin-right: 20px;
+  }
+  /***************main***********/
+
+  .main_h1{
+    margin-left: 20px;
+  }
+
+  .main_p{
+    margin-left: 20px;
+  }
+
+  /*FORMULAIRE*/
+  form{
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+
+  form button{
+    width: auto;
+  }
+
+  form span{
+    margin-left: 0;
+  }
+
+  /*BLOCK FILTRE*/
+
+  .filtre{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .filtre h2{
+    margin-right: 30px;
+    margin-left: 20px;
+  }
+
+  .filtre button{
+    margin-right: 5px;
+    margin-left: 0;
+  }
+
+  /*HEBERGEMENT*/
+
+  #herbergement_et_populaire{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section_hebergement{
+    border-radius: 20px;
+    padding: 5px;
+    margin-left: 0px;
+  }
+
+  #hebergement{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .hebergement_block{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .hebergement_block a{
+    max-width: 246px;
+    width: 35%;
+  }
+
+  .hebergement_carte img{
+    width: 100%;
+  }
+
+  /*POPULAIRE*/
+
+  #populaire{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+  }
+
+  .populaire_block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .populaire_block a{
+    padding: 5px;
+    width: 35%;
+  }
+
+  .populaire_carte{
+    width: 100%;
+    height: 100%;
+  }
+
+  .populaire_carte img{
+    width: 106px;
+  }
+
+  /*ACTIVITES*/
+
+  .activite_carte{
+    width: 182px;
+    height: 267px;
+  }
+
+  .activite_carte img{
+    width: 182px;
+    height: 267px;
+  }
+
+  #activite{
+    margin-bottom: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+/*RESPONSIVE TOUS TELEPHONES*/
+
+@media only screen and (max-width: 768px) {
+
+.carte_text_700 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .carte_text_400 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .display_mobile {
+    display: block;
+    visibility: visible;
+  }
+
+  .display_desktop {
+    display: none;
+    visibility: hidden;
+  }
+
+  /***********Body********/
+  body {
+    width: auto;
+    max-width: 767px;
+    margin: 0 auto;
+  }
+
+}
+  
+
+  
