@@ -198,7 +198,7 @@ form button{
   color: #0065fc;
 }
 
-/*herbergement_et_populaire*/
+/*HEBERGEMENT ET POPULAIRE*/
 
 #herbergement_et_populaire {
   display: flex;
@@ -441,7 +441,7 @@ footer h2{
   #nav{
     margin-right: 20px;
   }
-  /***************main***********/
+  /*MAIN*/
 
   .main_h1{
     margin-left: 20px;
@@ -595,14 +595,276 @@ footer h2{
     visibility: hidden;
   }
 
-  /***********Body********/
+  /*BODY*/
   body {
     width: auto;
     max-width: 767px;
     margin: 0 auto;
   }
 
+
+  main {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  main span {
+    margin-left: 20px;
+  }
+  /*HEADER*/
+
+  header {
+    display: flex;
+    flex-direction: column;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  nav ul {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+  }
+
+  nav li {
+    width: 50%;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+  }
+
+  nav li:hover {
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid #0065fc;
+  }
+
+  .logo_booki {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /*CLASS MAIN*/
+
+  .main_h1 {
+    margin-left: 20px;
+    align-items: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  .main_p {
+    margin-left: 20px;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  /*FORMULAIRE*/
+
+  form {
+    margin-left: 20px;
+  }
+  form input {
+    width: 60%;
+  }
+  form button {
+    width: 50px;
+  }
+
+  /*CHAMP FILTRE ET BTN*/
+
+  .filtre {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .filtre h2 {
+    margin-left: 20px;
+  }
+
+  .filtre button {
+    width: 45%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+    display: flex;
+  }
+
+  .btn_smartphone {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .icon {
+    width: 21px;
+    height: 20px;
+  }
+
+  /*POPULAIRE*/
+  aside {
+    border-radius: 20px;
+    padding: 0px;
+  }
+  #populaire {
+    background-color: #f2f2f2;
+    margin: 0;
+    border-radius: 0;
+  }
+
+  .populaire_block {
+    display: flex;
+    flex-direction: column;
+  }
+  .populaire_block a {
+    width: 100%;
+    height: 144px;
+  }
+
+  .populaire_carte {
+    max-width: 767px;
+    width: 100%;
+  }
+
+  .populaire_image img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .populaire_details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 85px;
+  }
+
+  /*HEBERGEMENT*/
+
+  #herbergement_et_populaire {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  #hebergement {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .hebergement_h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    padding-left: 20px;
+  }
+
+  .section_hebergement {
+    background-color: #ffffff;
+    border-radius: 0;
+    padding: 0;
+  }
+
+  .hebergement_block {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hebergement_block a {
+    max-width: 767px;
+    width: 100%;
+  }
+
+  .hebergement_carte {
+    max-width: 767px;
+    width: 100%;
+  }
+
+  .hebergement_carte:hover {
+    cursor: pointer;
+  }
+
+  .inactive {
+    color: #f2f2f2;
+  }
+
+  .hebergement_carte img {
+    width: 100%;
+    max-width: 767px;
+    object-fit: cover;
+  }
+  .hebergement_description {
+    padding-left: 10px;
+  }
+
+  /*ACTIVITES*/
+  #activite {
+    margin-top: 40px;
+  }
+
+  .activite_block {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .activite_carte {
+    padding-left: 0px;
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    max-width: 100%;
+    box-shadow: 5px 5px 5px #f2f2f2;
+  }
+
+  .activite_carte img {
+    width: 100%;
+    object-fit: cover;
+    height: 70%;
+    border-radius: 20px 20px 0px 0px;
+  }
+
+  /*FOOTER*/
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  footer div {
+    margin-left: 30px;
+    padding: 10px;
+  }
+
+  footer ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer li {
+    display: flex;
+    flex-direction: column;
+  }
 }
+
+
   
 
   
