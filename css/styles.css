@@ -11,12 +11,13 @@ a {
     color: black;
 }
 
+/*BODY*/
 body{
     font-family: "Raleway", sans-serif;
     max-width: 1400px;
     margin: 0 auto;
 }
-
+/*HEADER*/
 header{
     display: flex;
     align-items: center;
@@ -95,6 +96,12 @@ nav{
   text-align: left;
 }
 
+ul{
+  display: unset;
+}
+
+
+
 nav li{
   display: inline;
   padding: 15px 20px 15px 20 px;
@@ -114,9 +121,11 @@ nav a:hover{
   color: #0065fc;
 }
 
+
 .logo_booki{
   width: 60px;
   margin-left: 10px;
+  padding-top: 20px;
 }
 
 main_h1{
@@ -178,7 +187,7 @@ form button{
 .filtre button {
   background-color: #ffffff;
   border-radius: 20px 20px 20px 20px;
-  border: solid 2px #d9d9d9;
+  border: solid 2px #f2f2f2;
   padding: 10px;
   font-style: normal;
   font-weight: 700;
@@ -302,7 +311,9 @@ article{
   width: 40%;
   min-width: 137px;
   height: 100%;
+  border-radius: 20px 0px 0px 20px;
 }
+
 .populaire_image img{
   width: 100%;
   height: 100%;
