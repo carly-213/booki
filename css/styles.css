@@ -47,6 +47,7 @@ main{
   .display_desktop {
     display: block;
     visibility: visible;
+    cursor: pointer;
   }
   
   .background_gris {
