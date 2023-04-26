@@ -394,7 +394,7 @@ footer h2{
 
 /*RESPONSIVE TABLETTES*/
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 768px) {
   
   .carte_text_700{
     font-style: normal;
