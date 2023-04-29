@@ -394,7 +394,7 @@ footer h2{
 
 /*RESPONSIVE TABLETTES*/
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1023px) {
   
   .carte_text_700{
     font-style: normal;
@@ -581,7 +581,7 @@ footer h2{
 
 /*RESPONSIVE TOUS TELEPHONES*/
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
 
 .carte_text_700 {
     font-style: normal;
@@ -772,8 +772,10 @@ footer h2{
     width: 100%;
   }
   #hebergement {
+    display: flex;
     margin-right: 0;
     margin-left: 0;
+
   }
 
   .hebergement_h2 {
